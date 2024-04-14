@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '14.0'
+
+target 'SSdataPods_Example' do
+  pod 'SSdataPods', :path => '../'
+
+  target 'SSdataPods_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

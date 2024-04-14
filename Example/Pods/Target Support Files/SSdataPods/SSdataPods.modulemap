@@ -1,0 +1,6 @@
+framework module SSdataPods {
+  umbrella header "SSdataPods-umbrella.h"
+
+  export *
+  module * { export * }
+}
